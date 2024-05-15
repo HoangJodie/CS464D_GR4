@@ -94,5 +94,14 @@ namespace QLTRUNGTAMHOCTHEM
             }
             else Application.OpenForms["frm_ThongKe"].Activate();
         }
+
+        private void btn_DangXuat_Click(object sender, EventArgs e)
+        {
+            DialogResult dt = MessageBox.Show("Bạn có muốn đăng xuất không?\t", "Thông báo", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            if (dt == DialogResult.Yes)
+            {
+                Application.Exit();
+            }
+        }
     }
 }
