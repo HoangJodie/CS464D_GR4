@@ -17,10 +17,14 @@ namespace QLTRUNGTAMHOCTHEM
             InitializeComponent();
         }
 
+<<<<<<< HEAD
         private void btn_DangNhap_Click(object sender, EventArgs e)
         {
             frm_Main form = new frm_Main();
             form.Show();
         }
+=======
+        
+>>>>>>> cb97d838f37e49d07f304435cca42ab90d483357
     }
 }

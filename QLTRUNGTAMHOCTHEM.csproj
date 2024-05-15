@@ -46,24 +46,30 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <Compile Include="frm_DangKyLop.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="frm_DangKyLop.Designer.cs">
       <DependentUpon>frm_DangKyLop.cs</DependentUpon>
     </Compile>
+=======
+>>>>>>> cb97d838f37e49d07f304435cca42ab90d483357
     <Compile Include="frm_DangNhap.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="frm_DangNhap.Designer.cs">
       <DependentUpon>frm_DangNhap.cs</DependentUpon>
     </Compile>
+<<<<<<< HEAD
     <Compile Include="frm_QLGiaoVien.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="frm_QLGiaoVien.Designer.cs">
       <DependentUpon>frm_QLGiaoVien.cs</DependentUpon>
     </Compile>
+=======
+>>>>>>> cb97d838f37e49d07f304435cca42ab90d483357
     <Compile Include="frm_Main.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -76,6 +82,7 @@
     <Compile Include="frm_QLHocVien.Designer.cs">
       <DependentUpon>frm_QLHocVien.cs</DependentUpon>
     </Compile>
+<<<<<<< HEAD
     <Compile Include="frm_QLLop.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -105,12 +112,20 @@
     <EmbeddedResource Include="frm_QLGiaoVien.resx">
       <DependentUpon>frm_QLGiaoVien.cs</DependentUpon>
     </EmbeddedResource>
+=======
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frm_DangNhap.resx">
+      <DependentUpon>frm_DangNhap.cs</DependentUpon>
+    </EmbeddedResource>
+>>>>>>> cb97d838f37e49d07f304435cca42ab90d483357
     <EmbeddedResource Include="frm_Main.resx">
       <DependentUpon>frm_Main.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frm_QLHocVien.resx">
       <DependentUpon>frm_QLHocVien.cs</DependentUpon>
     </EmbeddedResource>
+<<<<<<< HEAD
     <EmbeddedResource Include="frm_QLLop.resx">
       <DependentUpon>frm_QLLop.cs</DependentUpon>
     </EmbeddedResource>
@@ -120,6 +135,8 @@
     <EmbeddedResource Include="frm_ThongKe.resx">
       <DependentUpon>frm_ThongKe.cs</DependentUpon>
     </EmbeddedResource>
+=======
+>>>>>>> cb97d838f37e49d07f304435cca42ab90d483357
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>

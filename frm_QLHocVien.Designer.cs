@@ -183,7 +183,11 @@
             this.dataGridView_QLHocVien.Name = "dataGridView_QLHocVien";
             this.dataGridView_QLHocVien.RowHeadersWidth = 51;
             this.dataGridView_QLHocVien.RowTemplate.Height = 24;
+<<<<<<< HEAD
             this.dataGridView_QLHocVien.Size = new System.Drawing.Size(669, 239);
+=======
+            this.dataGridView_QLHocVien.Size = new System.Drawing.Size(669, 201);
+>>>>>>> cb97d838f37e49d07f304435cca42ab90d483357
             this.dataGridView_QLHocVien.TabIndex = 18;
             // 
             // txt_SoSV
@@ -278,7 +282,11 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+<<<<<<< HEAD
             this.ClientSize = new System.Drawing.Size(814, 511);
+=======
+            this.ClientSize = new System.Drawing.Size(796, 464);
+>>>>>>> cb97d838f37e49d07f304435cca42ab90d483357
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.label8);
@@ -303,12 +311,19 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label1);
+<<<<<<< HEAD
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Location = new System.Drawing.Point(113, 45);
             this.Name = "frm_QLHocVien";
             this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
             this.Text = "frm_QLSinhVien";
             this.TopMost = true;
+=======
+            this.Location = new System.Drawing.Point(151, 55);
+            this.Name = "frm_QLHocVien";
+            this.Text = "frm_QLSinhVien";
+            this.Load += new System.EventHandler(this.frm_QLHocVien_Load);
+>>>>>>> cb97d838f37e49d07f304435cca42ab90d483357
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView_QLHocVien)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
