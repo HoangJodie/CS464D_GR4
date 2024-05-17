@@ -73,6 +73,7 @@
             // 
             // txt_Matkhau
             // 
+<<<<<<< HEAD
             this.txt_Matkhau.Location = new System.Drawing.Point(167, 122);
             this.txt_Matkhau.Name = "txt_Matkhau";
             this.txt_Matkhau.PasswordChar = '*';
@@ -115,6 +116,19 @@
             this.label4.Size = new System.Drawing.Size(152, 25);
             this.label4.TabIndex = 8;
             this.label4.Text = "ĐĂNG NHẬP";
+=======
+            this.btn_DangNhap.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_DangNhap.Location = new System.Drawing.Point(213, 132);
+            this.btn_DangNhap.Name = "btn_DangNhap";
+            this.btn_DangNhap.Size = new System.Drawing.Size(106, 36);
+            this.btn_DangNhap.TabIndex = 7;
+            this.btn_DangNhap.Text = "Đăng Nhập";
+            this.btn_DangNhap.UseVisualStyleBackColor = true;
+<<<<<<< HEAD
+            this.btn_DangNhap.Click += new System.EventHandler(this.btn_DangNhap_Click);
+=======
+>>>>>>> cb97d838f37e49d07f304435cca42ab90d483357
+>>>>>>> 8f745ffbf4627fac3dbca00374d8dbdeee6fa77d
             // 
             // frm_DangNhap
             // 

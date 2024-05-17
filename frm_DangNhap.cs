@@ -17,8 +17,14 @@ namespace QLTRUNGTAMHOCTHEM
         {
             InitializeComponent();
         }
+<<<<<<< HEAD
         int dem = 0;
         private void btn_Dangnhap_Click(object sender, EventArgs e)
+=======
+
+<<<<<<< HEAD
+        private void btn_DangNhap_Click(object sender, EventArgs e)
+>>>>>>> 8f745ffbf4627fac3dbca00374d8dbdeee6fa77d
         {
             string chuoikn = @"";
             SqlConnection conn = new SqlConnection(chuoikn);
@@ -61,5 +67,11 @@ namespace QLTRUNGTAMHOCTHEM
                 txt_Matkhau.PasswordChar = '*';
             }
         }
+<<<<<<< HEAD
+=======
+=======
+        
+>>>>>>> cb97d838f37e49d07f304435cca42ab90d483357
+>>>>>>> 8f745ffbf4627fac3dbca00374d8dbdeee6fa77d
     }
 }

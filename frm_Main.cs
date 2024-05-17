@@ -17,6 +17,10 @@ namespace QLTRUNGTAMHOCTHEM
             InitializeComponent();
         }
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 8f745ffbf4627fac3dbca00374d8dbdeee6fa77d
         private void btn_HocVien_Click(object sender, EventArgs e)
         {
             if (Application.OpenForms["frm_QLHocVien"] == null)
@@ -94,6 +98,7 @@ namespace QLTRUNGTAMHOCTHEM
             }
             else Application.OpenForms["frm_ThongKe"].Activate();
         }
+<<<<<<< HEAD
 
         private void btn_DangXuat_Click(object sender, EventArgs e)
         {
@@ -103,5 +108,10 @@ namespace QLTRUNGTAMHOCTHEM
                 Application.Exit();
             }
         }
+=======
+=======
+        
+>>>>>>> cb97d838f37e49d07f304435cca42ab90d483357
+>>>>>>> 8f745ffbf4627fac3dbca00374d8dbdeee6fa77d
     }
 }
